@@ -1,3 +1,4 @@
+
 #titulo {
     color: #ffc400;
     border: 3px dimgray solid;
@@ -12,7 +13,7 @@
 
 #fondo{
    background-color: black;  
-   background-image: url(imagenes/Fondos/Fondo3.jpg); 
+   background-image: url(/static/web/imagenes/Fondos/Fondo3.jpg); 
    background-position: top;
    background-attachment: fixed;
    background-repeat: no-repeat;
