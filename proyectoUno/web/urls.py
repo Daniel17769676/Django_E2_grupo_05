@@ -3,6 +3,7 @@ from .views import Animales, Armas, Construcciones, Consumibles,Enemigos, Flora,
 
 urlpatterns = [
    
+    path('',Animales, name="Animales"),
     path('animales',Animales, name="Animales"),
     path('armas',Armas,name="Armas"),
     path('construcciones',Construcciones,name="Construcciones"),
