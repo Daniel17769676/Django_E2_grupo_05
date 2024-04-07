@@ -29,7 +29,7 @@ def historia(request):
     return render(request, 'web/historia.html')
 
 def inicio_sesion(request):
-    return render(request, 'web/inicio_sesion.html')
+    return render(request, 'web/inicio_sesion_wiki.html')
 
 def Logros(request):
     return render(request, 'web/Logros.html')
