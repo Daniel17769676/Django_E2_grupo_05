@@ -16,8 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include #Daniel: Se importa la funcion include, este es el paso 4
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('web.urls')), #Daniel: Aqui se incluyen las urls de la aplicacion web, este es el paso 4
-]
+    
+]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
